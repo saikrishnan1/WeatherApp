@@ -37,6 +37,7 @@ fetch(api)
         if(temperatureSpan.textContent=== "F"){
             temperatureSpan.textContent="C";
             temperatureDegree.textContent=Math.round(celsius);
+            console.log(celsius);
 
         }else{
             temperatureSpan.textContent="F";
